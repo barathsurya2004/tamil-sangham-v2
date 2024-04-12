@@ -1,0 +1,34 @@
+.container{
+    position: fixed;
+
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+      transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo span{
+    font-size: 32.8px;
+    font-weight: bold;
+}
+.logo img {
+    height: 55px;
+    margin-left: 20px;
+}
+
+.container .links {
+    padding-right: 20px;
+    color: white;
+}
+.container .links li {
+    font-size: 20px;
+    display: inline-block;
+    margin: 0 20px;
+    color: white;
+}
