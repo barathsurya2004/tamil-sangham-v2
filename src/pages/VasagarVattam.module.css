@@ -77,3 +77,20 @@ align-items: center;
 .controlButtons img {
     margin: 30px 0;
 }
+
+
+.questions{
+    background-color: black;
+    border: 2px solid #555555;
+    padding: 25px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+.questions h1 {
+        font-family: 'kunkun';
+    font-weight: 600;
+}
+.questions p {
+    font-family: 'kunkun';
+    font-weight: 400;
+}

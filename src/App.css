@@ -19,7 +19,16 @@
   src: url("/public/assets/fonts/begum\ light.OTF");
   font-weight: 400;
 }
-
+@font-face {
+  font-family: 'kunkun';
+  src: url("/public/assets/fonts/kunkun\ medium.OTF");
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'kunkun';
+  src: url('/public/assets/fonts/kunkun\ bold.OTF');
+  font-weight: 600;
+}
 
 *{
   font-family: 'begum tamil';

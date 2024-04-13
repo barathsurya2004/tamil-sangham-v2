@@ -3,7 +3,9 @@ import Header from "../components/header";
 import Hero from "./Hero";
 import AboutUs from "./AboutUs";
 import Footer from "../components/Footer";
+import { useNavigate } from "react-router-dom";
 const HomePage = () => {
+  const navigate = useNavigate();
   return (
     <>
       <Header />
@@ -16,7 +18,12 @@ const HomePage = () => {
         />
         <Hero />
         <AboutUs />
-        <div className={classes.banner}>
+        <div
+          className={classes.banner}
+          onClick={() => {
+            navigate("/vasagar-vattam");
+          }}
+        >
           <div
             style={{
               display: "flex",
