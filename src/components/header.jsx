@@ -23,6 +23,7 @@ const Header = () => {
       className={classes.container}
       style={{
         top: `${scroll}px`,
+        backgroundColor: scrollY < 60 ? "#00000000" : "#230D25",
       }}
     >
       <Link to={"/"}>

@@ -5,50 +5,44 @@ import SmallCard from "../components/smallCard.jsx";
 const Gallery = () => {
   const Mycollections = [
     {
-      title: "Tamil Sangham 2018",
+      title: "Tamil Sangham ",
       bkgImg: "/assets/2.jpg",
       available: false,
       link: null,
     },
     {
       title: "Tamil New Year '22",
-      bkgImg: "/assets/2.jpg",
+      bkgImg: "/assets/tamil-new-year-22.jpg",
       available: true,
       link: null,
     },
     {
       title: "TNY Creatives '23",
-      bkgImg: "/assets/2.jpg",
+      bkgImg: "/assets/TNY23Creatives.jpeg",
       available: false,
       link: null,
     },
     {
       title: "TNY Volley ball Tournament'23",
-      bkgImg: "/assets/2.jpg",
+      bkgImg: "/assets/volley.jpg",
       available: true,
       link: null,
     },
     {
       title: "Tamil New Year'23",
-      bkgImg: "/assets/2.jpg",
+      bkgImg: "/assets/TNY23'.png",
       available: false,
       link: null,
     },
     {
       title: "Freshers Meet '23",
-      bkgImg: "/assets/2.jpg",
+      bkgImg: "/assets/freshers' meet 23.png",
       available: false,
       link: null,
     },
     {
       title: "Pongal celebration '24",
-      bkgImg: "/assets/2.jpg",
-      available: false,
-      link: null,
-    },
-    {
-      title: "Pongal Event '24",
-      bkgImg: "/assets/2.jpg",
+      bkgImg: "/assets/pongal24.jpeg",
       available: false,
       link: null,
     },

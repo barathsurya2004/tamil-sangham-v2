@@ -1,8 +1,14 @@
+import { useState } from "react";
 import Footer from "../components/Footer";
 import Header from "../components/header";
 import classes from "./VasagarVattam.module.css";
 
 const VasagarVattam = () => {
+  const [isActive, setIsActive] = useState(false);
+  const onClickhandler = () => {
+    setIsActive(!isActive);
+  };
+
   return (
     <>
       <Header />
@@ -34,13 +40,13 @@ const VasagarVattam = () => {
           <div className={classes.slider}>
             <div className={classes.images}>
               <div className={classes.imageCard}>
-                <img src="/assets/2.jpg" alt="" />
+                <img src={"/assets/vasagar1.jpg"} alt="" />
               </div>
               <div className={classes.imageCard}>
-                <img src="/assets/2.jpg" alt="" />
+                <img src={"/assets/vasagar2.jpg"} alt="" />
               </div>
               <div className={classes.imageCard}>
-                <img src="/assets/2.jpg" alt="" />
+                <img src={"/assets/vasagar3.jpg"} alt="" />
               </div>
             </div>
             <div className={classes.controlButtons}>
@@ -51,7 +57,27 @@ const VasagarVattam = () => {
         </div>
         <div className={classes.faq}>
           <h1>FAQs</h1>
-          <div className={classes.questions}>
+          <div
+            className={classes.questions}
+            style={
+              isActive
+                ? {
+                    height: "auto",
+                  }
+                : {}
+            }
+            onClick={onClickhandler}
+          >
+            <div
+              className={classes.backdrop}
+              style={
+                isActive
+                  ? {
+                      backgroundColor: "#00000000",
+                    }
+                  : {}
+              }
+            />
             <h1>வாசகர் வட்டம் எப்போது உருவானது ?</h1>
             <p>
               இந்திய தொழிற்நுட்ப கழகம், ஹைதராபாத் தமிழ்ச்சங்கத்தின் ஓர் அங்கமாக,

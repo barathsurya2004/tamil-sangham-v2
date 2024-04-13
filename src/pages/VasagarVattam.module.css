@@ -85,6 +85,19 @@ align-items: center;
     padding: 25px;
     border-radius: 50px;
     margin-bottom: 50px;
+    height: 200px;
+    overflow-y: hidden;
+    position: relative;
+    transition: all 1s linear;
+}
+.questions .backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000b0;
+    height: 100%;
+    width: 100%;
+    transition: all 1s linear;
 }
 .questions h1 {
         font-family: 'kunkun';
