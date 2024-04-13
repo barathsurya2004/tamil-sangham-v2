@@ -7,14 +7,24 @@
     height: 100vh;
     padding-right: 100px;
     padding-left: 100px;
+    position: relative;
 }
 .hero h4 {
-    width: 80%;
-    font-size: 38px;
+    width: 70%;
+    font-size: 40px;
     margin: 10px 0;
 }
 .hero p {
-    width: 65%;
-    font-size: 30px;
-    margin: 10px 0
+    font-family: "Noto Sans";
+
+    width: 50%;
+    font-size: 32px;
+    margin: 20px 0
+}
+.hero img {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    height: 25px;
+    cursor: pointer;
 }

@@ -36,7 +36,17 @@ const Header = () => {
       </Link>
       <nav className={classes.links}>
         <ul>
-          <li>Home</li>|<li>News</li> |<li>Events</li> |<li>Gallery</li>
+          <li>
+            <Link to={"/"}>Home</Link>
+          </li>
+          |<li>News</li> |
+          <li>
+            <Link to={"/events"}>Events</Link>
+          </li>{" "}
+          |
+          <li>
+            <Link to={"/gallery"}>Gallery</Link>
+          </li>
         </ul>
       </nav>
     </div>

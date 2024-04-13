@@ -10,6 +10,7 @@ const Hero = () => {
         Wisdom is to keep it simple for your audience, and to comprehend
         complexities in others’ speech.
       </p>
+      <img src="/assets/Double Down.svg" alt="" />
     </div>
   );
 };

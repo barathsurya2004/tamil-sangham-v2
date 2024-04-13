@@ -2,10 +2,13 @@ import classes from "./AboutUs.module.css";
 
 const AboutUs = () => {
   return (
-    <>
+    <div className={classes.aboutUs}>
       <h1>About Us</h1>
       <div className={classes.container}>
-        <div className={classes.imageHolder}>{/* <img src="" alt="" /> */}</div>
+        <div className={classes.imageHolder}>
+          <div className={classes.imageBackdrop} />
+          <img src="/assets/2.jpg" alt="" />{" "}
+        </div>
         <div className={classes.aboutContent}>
           <p>
             Welcome to the Indian Institute of Technology Hyderabad Tamizh
@@ -19,7 +22,7 @@ const AboutUs = () => {
           </p>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
